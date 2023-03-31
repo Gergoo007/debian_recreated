@@ -1,0 +1,11 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner {
+    background-color: #010027;
+    position: fixed;
+    padding: 50px;
+}
+
