@@ -1,0 +1,18 @@
+#header {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: black;
+	padding: 0px;
+}
+
+#main_content {
+	background-color: white;
+	padding: 50px;
+	margin-top: 50000px;
+}
+
+#footer {
+	background-color: red;
+	padding: 50px;
+}
