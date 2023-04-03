@@ -1,11 +1,33 @@
-html {
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    height: 0;
 }
 
-#banner {
-    background-color: #010027;
-    position: fixed;
-    padding: 50px;
+#navbar {
+    height: 80px;
+    width: auto;
+    border-bottom: 5px #a80030  solid;
+    background-color: #737373;
 }
 
+#navbarlogo img {
+    margin-top: 10px;
+    margin-left: -10px;
+    height: 58px;
+    width: 102px;
+}
+
+#navbarmenu {
+    text-align: right;
+}
+
+#navbarmenu li {
+    padding-left: 70px;
+    padding-top: 25px;
+    list-style: none;
+    display: inline-block;
+}
+
+#navbarmenu #li-communtiy {
+    padding-right: 20px;
+}
