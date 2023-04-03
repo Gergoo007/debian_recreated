@@ -1,18 +1,33 @@
-#header {
-	position: fixed;
+.header {
+	
 	top: 0px;
 	width: 100%;
-	background-color: black;
+	background-color: rgb(48, 48, 48);
 	padding: 0px;
+	
+
+	border-bottom: 5px solid red;
 }
 
-#main_content {
-	background-color: white;
-	padding: 50px;
-	margin-top: 50000px;
+.header #logo {
+	width: 80px;
+	margin: 10px;
 }
 
-#footer {
+.main_content {
+	border: 2px solid rgb(103, 103, 103);
+	border-radius: 4px;
+	background-color: rgb(190, 190, 190);
+
+	padding: 20px;
+
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.footer {
 	background-color: red;
 	padding: 50px;
 }
