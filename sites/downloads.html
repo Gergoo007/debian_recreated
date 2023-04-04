@@ -4,6 +4,7 @@
 	<title>Debian Linux Downloads</title>
 	<link rel="stylesheet" type="text/css" href="../css/common.css">
 	<link rel="stylesheet" type="text/css" href="../css/downloads.css">
+	
 </head>
 <body>
 	<header class="header">
@@ -19,7 +20,14 @@
 					<br>&emsp;<a href="http://ftp.fsn.hu/pub/CDROM-Images/debian/current/amd64/iso-cd/debian-11.6.0-amd64-netinst.iso">debian-11.6.0-amd64-netinst.iso</a>
 				</li>
 			</ul>
-			<h2>How to use the downloaed ISO</h2>
+			<h2>How to use the installer ISO</h2>
+			<p id="howto_install">
+				Flash the ISO to either a CD or pendrive, preferably using <a href="http://rufus.ie/">Rufus</a>, or using dd:
+			</p>
+			<code>dd if=iso_image of=device bs=4M</code>
+			<p id="howto_install">
+				Then boot the pendrive/CD you just flashed.
+			</p>
 		</div>
 	</main>
 
