@@ -1,7 +1,22 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap);
+
 :root {
-	
+	font-family: Ubuntu;
 }
 
 * {
 	margin: 0px;
+}
+
+.tag {
+	padding: 2px;
+	border: 1px solid gray;
+	border-radius: 5px;
+
+	font-size: small;
+	color: rgb(41, 41, 41);
+
+	margin: 1px;
+
+	background-color: rgb(148, 148, 148);
 }
