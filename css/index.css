@@ -6,16 +6,24 @@
     padding: 0px;
 }
 
+html {
+    background-size: 30px 30px;
+    background-image: radial-gradient(circle, #ff66ff 1.5px, rgba(0, 0, 0, 0) 1.6px);
+}
+
 .navbar {
     position: relative;
     display: flex;
-    border-bottom: 5px #a80030  solid;
     background: linear-gradient(to top right, #ff66ff 25%, #3366ff 100%);
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(to right, #ff66ff 20%, #a80030 80%);
+    border-image-slice: 1;
+    width:100%;
 }
 
 .navbar-logo img {
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 0.8vh;;
+    padding-bottom: 0.4vh;
     height: 58px;
     width: 102px;
 }
@@ -33,8 +41,9 @@
 
 .navbar-links a:hover {
     transition: 0.5s;
-    font-size: 24px;
+    font-size: 26px;
     color: #a80030;
+    text-decoration: underline;
 }
 
 .navbar-links a {
@@ -50,11 +59,16 @@
 }
 
 .content-image {
-    background-color: #010027;
+    background: linear-gradient(to top, #020026 30%, #a80030 100%);
 }
 
-.content-image {
-    
+.content-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15vh;
+    width: auto;
+    border-radius: 40px;
 }
 
 .container {
@@ -67,28 +81,39 @@
     position: relative;;
     border: 2px solid rgb(155, 155, 155);
     border-radius: 8px;
-    background: linear-gradient(to bottom left, #ff66ff 1%, #0099cc 100%);
-    height: 40vw;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(235, 133, 177) 0%, rgba(148,187,233,1) 100%);
+    height: 18vw;
     width: auto;
-    margin-top: 50px;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-top: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .content h2 {
     font-family: 'Ubuntu Mono', monospace;
     color: #a80030;
+    font-size: 3vw;
     text-decoration: underline;
     margin-top: 10px;
+}
+
+.content h3 {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #a80030;
+    font-size: 2.5vw;
+    padding-top: 1.5vh;
 }
 
 .content img {
     margin-top: 15px;
     margin-bottom: 15px;
-    height: 116px;
-    width: 204px;
+    width: 12vw;
+    height: auto;
 }
 
 .content p {
     font-family: 'Ubuntu Mono', monospace;
+    padding-top: 1vh;
+    font-size: 1.5vw;
 }
