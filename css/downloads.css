@@ -28,11 +28,6 @@
 	zoom: 120%;
 }
 
-.footer {
-	background-color: red;
-	padding: 50px;
-	margin-top: 1000px;
-}
 code {
 	margin: 10px;
 	margin-left: 0px;
@@ -55,4 +50,13 @@ code {
 	position: fixed;
 	left: -100px;
 	rotate: 270deg;
+}
+
+.footer {
+	background-color: rgb(48, 48, 48);
+	padding: 50px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100%;
 }
