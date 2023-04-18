@@ -71,7 +71,7 @@ html {
     border-radius: 40px;
 }
 
-.container {
+.top-container {
     display: grid;
     grid-template-columns: auto auto;
     text-align: center;
@@ -116,4 +116,13 @@ html {
     font-family: 'Ubuntu Mono', monospace;
     padding-top: 1vh;
     font-size: 1.5vw;
+}
+
+.middle-content {
+    background-color: #020026;
+    height: 28vw;
+    width: auto;
+    margin-top: 4vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
