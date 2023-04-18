@@ -1,16 +1,48 @@
-.header {
-	top: 0px;
-	width: 100%;
-	background-color: rgb(48, 48, 48);
-	padding: 0px;
-	
-
-	border-bottom: 5px solid red;
+.navbar {
+    position: relative;
+    display: flex;
+    background: linear-gradient(to top right, #ff66ff 25%, #3366ff 100%);
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(to right, #ff66ff 20%, #a80030 80%);
+    border-image-slice: 1;
+    width:100%;
 }
 
-.header #logo {
-	width: 80px;
-	margin: 10px;
+.navbar-logo img {
+    padding-top: 0.8vh;;
+    padding-bottom: 0.4vh;
+    height: 58px;
+    width: 102px;
+}
+
+.navbar-menu {
+    flex: 1;
+}
+
+.navbar-links {
+    margin-left: 8vw;
+    margin-top: 25px;
+    float: right;
+    list-style-type: none;
+}
+
+.navbar-links a:hover {
+    transition: 0.5s;
+    font-size: 26px;
+    color: #a80030;
+    text-decoration: underline;
+}
+
+.navbar-links a {
+    transition: 0.5s;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #a80030;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#navbar-links-community {
+    margin-right: 1.5vw;
 }
 
 .main_content {

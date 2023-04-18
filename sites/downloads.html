@@ -4,11 +4,33 @@
 	<title>Debian Linux Downloads</title>
 	<link rel="stylesheet" type="text/css" href="../css/common.css">
 	<link rel="stylesheet" type="text/css" href="../css/downloads.css">
-	
+	<script>
+		if (screen.width < 1920 || screen.height < 1080) {
+			alert("Mennyé fullscreenbe")
+		}
+	</script>
 </head>
 <body>
 	<header class="header">
-		<img id="logo" src="../img/logo.png">
+		<div class="navbar">
+			<div class="navbar-logo">
+				<img src="../img/logo.png">
+			</div>
+			<div class="navbar-menu">
+				<li class="navbar-links" id="navbar-links-community">
+					<a href="./sites/downloads.html" title="Official homepage for Debian">Community</a>
+				</li>
+				<li class="navbar-links">
+					<a href="./sites/downloads.html" title="Offical download site for Debian">Wiki</a>
+				</li>
+				<li class="navbar-links">
+					<a href="./sites/downloads.html" title="Offical download site for Debian">Download</a>
+				</li>
+				<li class="navbar-links">
+					<a href="./sites/downloads.html" title="Offical download site for Debian">Home</a>
+				</li>
+			</div>
+		</div>
 	</header>
 
 	<main class="main_content">
