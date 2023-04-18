@@ -3,7 +3,6 @@
     display: flex;
     background: linear-gradient(to top right, #ff66ff 25%, #3366ff 100%);
     border-bottom: 5px solid transparent;
-    border-image: linear-gradient(to right, #a80030 1%, #ff66ff 100%);
     border-image-slice: 1;
     width:100%;
 }
