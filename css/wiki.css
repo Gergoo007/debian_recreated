@@ -3,6 +3,7 @@
     display: flex;
     background: linear-gradient(to top right, #ff66ff 25%, #3366ff 100%);
     border-bottom: 5px solid transparent;
+    border-image: linear-gradient(to right, #ff66ff 20%, #a80030 80%);
     border-image-slice: 1;
     width:100%;
 }
@@ -44,41 +45,37 @@
     margin-right: 1.5vw;
 }
 
-.main_content {
-	border: 2px solid rgb(155, 155, 155);
-	border-radius: 4px;
-	background-color: rgb(216, 216, 216);
+#wiki_main {
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 20px;
+}
 
-	padding: 20px;
+#sidebar_container {
+	border: 2px solid gray;
+	border-radius: 10px;
+	width: 250px;
+	padding: 10px;
+}
 
+.content {
 	margin-left: 20px;
-	margin-right: 20px;
+}
+
+code {
 	margin-top: 10px;
 	margin-bottom: 10px;
-
-	zoom: 120%;
 }
 
-#howto_install {
-	margin-bottom: 6px;
-	margin-top: 6px;
-}
-
-.downloads {
+h2 {
+	font-size: large;
 	margin-bottom: 10px;
 }
 
-.ad {
-	position: fixed;
-	left: -100px;
-	rotate: 270deg;
+#before_code {
+	margin-bottom: 10px;
 }
 
-.footer {
-	background-color: rgb(48, 48, 48);
-	padding: 50px;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	width: 100%;
+#after_code {
+	margin-top: 10px;
 }

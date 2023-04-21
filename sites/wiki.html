@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>Debian Linux Wiki</title>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/wiki.css">
+</head>
+<body>
+	<header class="header">
+		<div class="navbar">
+			<div class="navbar-logo">
+				<img src="../img/logo.png">
+			</div>
+			<div class="navbar-menu">
+				<li class="navbar-links" id="navbar-links-community">
+					<a href="/index.html" title="Offical community site for Debian">Community</a>
+				</li>
+				<li class="navbar-links">
+					<a href="/sites/wiki.html" title="Offical wiki site for Debian">Wiki</a>
+				</li>
+				<li class="navbar-links">
+					<a href="/sites/downloads.html" title="Offical download site for Debian">Download</a>
+				</li>
+				<li class="navbar-links">
+					<a href="/index.html" title="Official homepage for Debian">Home</a>
+				</li>
+			</div>
+		</div>
+	</header>
+
+	<main id="wiki_main">
+		<div id="sidebar_container">
+			<h2 id="contents_title">Contents</h2>
+
+			<ul>
+				<li><a href="#about">About Debian Linux</a></li>
+				<li><a href="#installation">Installing Debian Linux</a></li>
+			</ul>
+		</div>
+
+		<div class="content">
+			<section id="about">
+				<h1 id="about">About Debian Linux</h1>
+				<hr>
+				<p id="about_content">
+					Debian is a Linux (GNU/Linux) distro that uses the dpkg package manager.
+					The vast majority of the userland is part of the GNU project (coreutils, gcc, binutils, bash).
+					It uses the systemd init system.
+				</p>
+			</section>
+			<section id="license">
+				<h1>License</h1>
+				<hr>
+				<p>Debian uses the DFSG license.</p>
+			</section>
+			<section id="pkg_mgr">
+				<h1>The APT package manager</h1>
+				<hr>
+				<h2>About APT</h2>
+				<hr>
+				<p>
+					APT is a frontend to the dpkg package manager, designed to make using dpkg easier. It's license is GPLv2.<br>
+					It works by downloading a database containing package names, their download url and their version.
+				</p>
+				<h2>Using APT</h2>
+				<hr>
+				<p id="before_code">First, you have to update this database. That can be done by issuing</p>
+				<code>apt update</code>
+				<p id="after_code">Don't forget to run it as root!</p>
+			</section>
+		</div>
+	</main>
+</body>
+</html>
