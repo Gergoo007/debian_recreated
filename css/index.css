@@ -58,11 +58,11 @@ html {
     margin-right: 1.5vw;
 }
 
-.content-image {
+.top-content-image {
     background: linear-gradient(to top, #020026 30%, #a80030 100%);
 }
 
-.content-image img {
+.top-content-image img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -77,8 +77,8 @@ html {
     text-align: center;
 }
 
-.content {
-    position: relative;;
+.top-content {
+    position: relative;
     border: 2px solid rgb(155, 155, 155);
     border-radius: 8px;
     background: rgb(238,174,202);
@@ -90,7 +90,7 @@ html {
     margin-right: 5vw;
 }
 
-.content h2 {
+.top-content h2 {
     font-family: 'Ubuntu Mono', monospace;
     color: #a80030;
     font-size: 3vw;
@@ -98,31 +98,59 @@ html {
     margin-top: 10px;
 }
 
-.content h3 {
+.top-content h3 {
     font-family: 'Ubuntu Mono', monospace;
     color: #a80030;
     font-size: 2.5vw;
     padding-top: 1.5vh;
 }
 
-.content img {
+.top-content img {
     margin-top: 15px;
     margin-bottom: 15px;
     width: 12vw;
     height: auto;
 }
 
-.content p {
+.top-content p {
     font-family: 'Ubuntu Mono', monospace;
     padding-top: 1vh;
     font-size: 1.5vw;
 }
 
 .middle-content {
-    background-color: #020026;
-    height: 28vw;
-    width: auto;
-    margin-top: 4vh;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    position: relative;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 8px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(235, 133, 177) 0%, rgba(148,187,233,1) 100%);
+    height: 46vh;
+    width: 36vw;
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+}
+
+.middle-content iframe {
+    border-radius: 10px;
+    margin-top: 2vh;
+}
+
+.middle-content h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #a80030;
+    font-size: 2vw;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.footer {
+	background-color: rgb(48, 48, 48);
+    height: 70px;
+	width: 100%;
+}
+
+.footer center h3 {
+    margin-top: 1vh;
 }
