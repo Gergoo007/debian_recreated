@@ -1,3 +1,8 @@
+html {
+    background-size: 30px 30px;
+    background-image: radial-gradient(circle, #ff66ff 1.5px, rgba(0, 0, 0, 0) 1.6px);
+}
+
 .navbar {
     position: relative;
     display: flex;
@@ -46,30 +51,28 @@
 }
 
 #wiki_main {
-	display: flex;
-	flex-wrap: nowrap;
+	display: grid;
 	margin: 20px;
 }
 
 #sidebar_container {
 	border: 2px solid gray;
 	border-radius: 10px;
-	width: 250px;
+	min-width: 250px;
 	padding: 10px;
+	background-color: white;
+	grid-column-start: 0;
+	grid-column-end: 1;
 }
 
 .content {
 	margin-left: 20px;
-}
-
-code {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-h2 {
-	font-size: large;
-	margin-bottom: 10px;
+	background-color: white;
+	border-radius: 8px;
+	border: 2px solid gray;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	padding: 10px;
 }
 
 #before_code {
@@ -78,4 +81,42 @@ h2 {
 
 #after_code {
 	margin-top: 10px;
+}
+
+.section_title {
+	margin-bottom: 7px;
+}
+
+h2 {
+	font-size: large;
+	margin-bottom: 2px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+.content_links {
+	text-decoration: none;
+	color: blue;
+	font-size: 17px;
+	padding: 2px;
+	transition: all 0.2s;
+}
+
+.content_links:visited {
+	color: #a80030;
+}
+
+.content_links:hover {
+	color: white;
+	background-color: #3366ff;
+}
+
+li {
+	margin-top: 5px;
+}
+
+#contents_title {
+	font-size: 22px;
 }
