@@ -30,17 +30,17 @@
 	<main id="wiki_main">
 		<div id="sidebar_container">
 			<h2 id="contents_title">Contents</h2>
-
 			<ul>
-				<li><a href="#about">About Debian Linux</a></li>
-				<li><a href="#installation">Installing Debian Linux</a></li>
+				<li><a class="content_links" href="#about">About Debian Linux</a></li>
+				<li><a class="content_links" href="#license">License</a></li>
+				<li><a class="content_links" href="#pkg_mgr">The APT package manager</a></li>
 			</ul>
 		</div>
 
 		<div class="content">
 			<section id="about">
 				<h1 id="about">About Debian Linux</h1>
-				<hr>
+				<hr  class="section_title">
 				<p id="about_content">
 					Debian is a Linux (GNU/Linux) distro that uses the dpkg package manager.
 					The vast majority of the userland is part of the GNU project (coreutils, gcc, binutils, bash).
@@ -49,12 +49,12 @@
 			</section>
 			<section id="license">
 				<h1>License</h1>
-				<hr>
+				<hr class="section_title">
 				<p>Debian uses the DFSG license.</p>
 			</section>
 			<section id="pkg_mgr">
 				<h1>The APT package manager</h1>
-				<hr>
+				<hr class="section_title">
 				<h2>About APT</h2>
 				<hr>
 				<p>
@@ -65,7 +65,9 @@
 				<hr>
 				<p id="before_code">First, you have to update this database. That can be done by issuing</p>
 				<code>apt update</code>
-				<p id="after_code">Don't forget to run it as root!</p>
+				<p id="after_code">Don't forget to run it as root!<br>Then run</p>
+				<code>apt upgrade</code>
+				<p id="after_code">To download and install the packages from the fetched database.</p>
 			</section>
 		</div>
 	</main>
