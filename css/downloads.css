@@ -53,14 +53,17 @@ html {
 }
 
 .main_content {
+    position: relative;
 	border: 2px solid rgb(155, 155, 155);
 	border-radius: 4px;
-	background-color: rgb(216, 216, 216);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(235, 133, 177) 0%, rgba(148,187,233,1) 100%);
+    width: 55%;
 
 	padding: 20px;
 
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 325px;
+	
 	margin-top: 20px;
 	margin-bottom: 10px;
 
@@ -76,10 +79,10 @@ html {
 	margin-bottom: 10px;
 }
 
-.ad {
-	position: fixed;
-	left: -100px;
-	rotate: 270deg;
+.reklam {
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
@@ -100,4 +103,31 @@ html {
     font-family: 'Ubuntu Mono', monospace;
     color: #a80030;
     font-size: 1.5vw;
+}
+
+.middle-content {
+    position: relative;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 8px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(235, 133, 177) 0%, rgba(148,187,233,1) 100%);
+    height: 46vh;
+    width: 36vw;
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+}
+
+.middle-content iframe {
+    border-radius: 10px;
+    margin-top: 2vh;
+}
+
+.middle-content h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #a80030;
+    font-size: 2vw;
+    text-decoration: underline;
+    margin-top: 10px;
 }
